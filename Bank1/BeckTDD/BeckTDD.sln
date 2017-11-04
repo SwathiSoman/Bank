@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDMoney", "Money\TDDMoney.csproj", "{A088B005-9511-4948-B447-2D6C7007E81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTests", "MoneyTests\MoneyTests.csproj", "{F8923957-CC07-45F2-87E0-1C07E22133AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{67C4CD97-00B4-4A38-9B40-156AA12A325B}"
+	ProjectSection(SolutionItems) = preProject
+		BeckTDD.vsmdi = BeckTDD.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{D2D93916-434C-4AE5-A656-927A2E6F9B0A}"
+	ProjectSection(SolutionItems) = preProject
+		todo-list.docx = todo-list.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BeckTDD.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A088B005-9511-4948-B447-2D6C7007E81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A088B005-9511-4948-B447-2D6C7007E81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A088B005-9511-4948-B447-2D6C7007E81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A088B005-9511-4948-B447-2D6C7007E81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8923957-CC07-45F2-87E0-1C07E22133AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8923957-CC07-45F2-87E0-1C07E22133AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8923957-CC07-45F2-87E0-1C07E22133AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8923957-CC07-45F2-87E0-1C07E22133AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

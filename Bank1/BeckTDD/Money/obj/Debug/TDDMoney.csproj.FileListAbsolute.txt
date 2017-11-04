@@ -1,0 +1,5 @@
+E:\experiments\BeckTDD\Money\obj\Debug\ResolveAssemblyReference.cache
+E:\experiments\BeckTDD\Money\bin\Debug\TDDMoney.dll
+E:\experiments\BeckTDD\Money\bin\Debug\TDDMoney.pdb
+E:\experiments\BeckTDD\Money\obj\Debug\TDDMoney.dll
+E:\experiments\BeckTDD\Money\obj\Debug\TDDMoney.pdb
