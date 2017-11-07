@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Banking System</title>
+
+  <link rel="stylesheet" href="lib/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+	
+	 <script src="lib/expect.js"></script>
+    <script src="lib/mocha.js"></script>
+	<script>
+      mocha.setup('bdd');
+    </script>
+
+  <!-- include source files here... 
+  <script src="src/bank.js"></script>
+  <script src="src/expression.js"></script>
+  <script src="src/money.js"></script>
+  <script src="src/sum.js"></script>
+  
+  <!-- include spec files here... -->
+  <script src="bankspec.js"></script>
+  <!-- <script src="question00Spec.js"></script>  -->
+ <script>
+	
+	window.onload = mocha.run();
+</script>
+
+<body>
+</body>
+</html>
