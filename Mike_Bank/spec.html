@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TDD Banking Example</title>
+</head>
+<body>
+<script src="Money.js"></script>
+
+<link rel="shortcut icon" type="image/png" href="lib/jasmine-2.7.0/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.7.0/jasmine.css">
+
+  <script src="lib/jasmine-2.7.0/jasmine.js"></script>
+  <script src="lib/jasmine-2.7.0/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.7.0/boot.js"></script>
+  
+  <!-- include source files here... -->
+<script src="src/sum.js"></script>
+<script src="src/pair.js"></script>
+<script src="src/bank.js"></script>
+<script src="src/money.js"></script>
+
+<!-- include spec files here... -->
+<script src = "bankSpec.js"></script>
+
+<script>
+ 
+ 
+// watch out – capitalization changed to meet js standards
+// ie small ‘d’ for dollar
+let five = Money.dollar(5)
+let m10 = five.times(2)
+let m15 = five.times(3)
+ 
+let sum = five.plus(five)
+let bank = new Bank()
+let reduced10 = bank.reduce(sum, 'USD')
+ 
+ 
+let fiveBucks = Money.dollar(5)
+let tenFrancs = Money.franc(10)
+bank = new Bank()
+bank.addRate('CHF', 'USD', 2)
+let m10dollar = bank.reduce(fiveBucks.plus(tenFrancs), 'USD')
+sum = new Sum(fiveBucks, tenFrancs).plus(fiveBucks) 
+let moneyDollars15  = bank.reduce(sum, "USD")
+</script>
+
+
+</body>
+</html> 
+ 
